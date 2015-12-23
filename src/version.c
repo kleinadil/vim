@@ -4395,26 +4395,26 @@ intro_message(
     char	*p;
     static char	*(lines[]) =
     {
-	N_("VIM - Vi IMproved"),
+	N_("Vim - the Text Editor"),
 	"",
 	N_("version "),
 	N_("by Bram Moolenaar et al."),
 #ifdef MODIFIED_BY
 	" ",
 #endif
-	N_("Vim is open source and freely distributable"),
+	N_(""),
 	"",
-	N_("Help poor children in Uganda!"),
-	N_("type  :help iccf<Enter>       for information "),
+	N_("Emacs is a nice OS, but it lacks a good text editor."),
+	N_("That's why I am using Vim."),
 	"",
-	N_("type  :q<Enter>               to exit         "),
-	N_("type  :help<Enter>  or  <F1>  for on-line help"),
-	N_("type  :help version8<Enter>   for version info"),
+	N_(""),
+	N_(""),
+	N_(""),
 	NULL,
 	"",
-	N_("Running in Vi compatible mode"),
-	N_("type  :set nocp<Enter>        for Vim defaults"),
-	N_("type  :help cp-default<Enter> for info on this"),
+	N_(""),
+	N_(""),
+	N_(""),
     };
 #ifdef FEAT_GUI
     static char	*(gui_lines[]) =
