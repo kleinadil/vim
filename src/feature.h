@@ -625,7 +625,7 @@
  *			chars.  Not tested much!
  */
 #if defined(FEAT_GUI_W32) && !defined(FEAT_MBYTE_IME)
-/* #define FEAT_MBYTE_IME */
+	#define FEAT_MBYTE_IME
 # endif
 
 /* Input methods are only useful with +multi_byte. */
